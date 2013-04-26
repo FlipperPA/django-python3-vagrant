@@ -18,9 +18,9 @@ Fairly easy to get it running:
 
 * vagrant up
 * vagrant ssh djangovm
--- You are now in the Virtualbox VM as superuser vagrant --
+** (Note: You are now in the Virtualbox VM as superuser vagrant)
 * sudo apt-get install python-pip
--- PIP is a Python package manager --
+** (Note: PIP is a Python package manager)
 * sudo pip install django
 
 Starting a Django project:
