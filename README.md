@@ -4,11 +4,13 @@ This is a Vagrant project for Django development.
 
 This does not yet support berkshelf or librarian; all necessary repos are include in 'cookbooks'.
 
-Pre-requisites (All platforms):
+Prerequisites, all platforms:
+
 * Virtualbox https://www.virtualbox.org/wiki/Downloads
 * Vagrant http://downloads.vagrantup.com/
 
-Pre-requisites (Windows only):
+Pre-requisites,Windows only:
+
 * git-bash
 * ruby rvm
 
@@ -22,6 +24,7 @@ Fairly easy to get it running:
 * sudo pip install django
 
 Starting a Django project:
+
 * django-admin.py startproject django_project
 * cd django_project
 * python manage.py runserver [::]:8000
