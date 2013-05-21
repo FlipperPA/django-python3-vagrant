@@ -21,6 +21,7 @@ Fairly easy to get it running:
 ** (Note: You are now in the Virtualbox VM as superuser vagrant)
 * sudo apt-get install python-pip
 ** (Note: PIP is a Python package manager)
+* sudo apt-get install python-mysqldb
 * sudo pip install django
 
 Starting a Django project:
@@ -29,7 +30,7 @@ Starting a Django project:
 * cd django_project
 * python manage.py runserver [::]:8000
 
-The VM is configured to use port forwarding. If everyone went right, you should be able to access the 
+The VM is configured to use port forwarding. If everything went right, you should be able to access the 
 running server through the browser on your computer running the virtual machine at this url:
 
 http://localhost:8001/
