@@ -2,14 +2,14 @@
 
 This is a Vagrant project for Django development.
 
-This does not yet support berkshelf or librarian; all necessary repos are include in 'cookbooks'.
+This does not yet support berkshelf or librarian; all necessary repos are included in 'cookbooks'.
 
 Prerequisites, all platforms:
 
 * Virtualbox https://www.virtualbox.org/wiki/Downloads
 * Vagrant http://downloads.vagrantup.com/
 
-Pre-requisites,Windows only:
+Pre-requisites, Windows only:
 
 * git-bash
 * ruby rvm
@@ -37,6 +37,6 @@ running server through the browser on your computer running the virtual machine 
 
 http://localhost:8001/
 
-New to Django? Next steps? I highly recommend http://www.djangobook.com/en/2.0/
+New to Django? Next steps? I recommend http://www.djangobook.com/en/2.0/ - slightly out-dated, but an excellent overview of the framework.
 
 Feel free to reach out to me with any questions. - Tim Allen (tallen@wharton.upenn.edu)
