@@ -22,6 +22,8 @@ Fairly easy to get it running:
 * sudo apt-get install python-pip
 ** (Note: PIP is a Python package manager)
 * sudo apt-get install python-mysqldb
+* sudo pip install flask
+** (Note: Flask is a lightweight Python framework for creating RESTful web services easily)
 * sudo pip install django
 
 Starting a Django project:
