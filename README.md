@@ -1,4 +1,4 @@
-# Django / Python
+# Django / Python / MySQL
 
 This is a Vagrant project for Django development.
 
