@@ -1,3 +1,9 @@
+# DEPRECATED!
+
+I would recommend using my friend Conor's excellent DjangoBox Vagrant file instead; it has many more options:
+
+* https://github.com/ronocdh/djangobox
+
 # Django / Python / MySQL
 
 This is a Vagrant project for Django development.
