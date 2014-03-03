@@ -1,34 +1,28 @@
-# DEPRECATED!
-
-I would recommend using my friend Conor's excellent DjangoBox Vagrant file instead; it has many more options:
-
-* https://github.com/ronocdh/djangobox
-
 # Django / Python / MySQL
 
-This is a Vagrant project for Django development.
+This is a Vagrant project for Django development. It is current with Django 1.6, and includes certain must-have
+apps and plugins, like South for database migration, python-mysql, python-ldap, Haystack for search, etc.
 
 This does not yet support berkshelf or librarian; all necessary repos are included in 'cookbooks'.
 
 Prerequisites, all platforms:
 
-* Virtualbox https://www.virtualbox.org/wiki/Downloads
-* Vagrant http://downloads.vagrantup.com/
+* Virtualbox: https://www.virtualbox.org/wiki/Downloads
+* Vagrant: http://downloads.vagrantup.com/
+* Chef Client: http://www.getchef.com/chef/install/ 
 
-Pre-requisites, Windows only:
+Fairly easy to get it running; first, checkout the repository to your machine:
 
-* git-bash
-* ruby rvm
+* git clone --recursive git@github.com:FlipperPA/djangovagrant.git django-dev
 
-Fairly easy to get it running:
+If you have already cloned from git without the "--recursive", from the root of the repository:
+
+* git submodule update --init --recursive
+
+Then, on to Vagrant:
 
 * vagrant up
 * vagrant ssh djangovm
-** (Note: You are now in the Virtualbox VM as superuser vagrant)
-* sudo apt-get install python-pip
-** (Note: PIP is a Python package manager)
-* sudo apt-get install python-mysqldb
-* sudo pip install django
 
 Starting a Django project:
 
