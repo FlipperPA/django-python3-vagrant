@@ -2,7 +2,7 @@ Vagrant::Config.run do |config|
   # Enable a shared folder
   #config.vm.share_folder "v-root", "/vagrant", ".", :extra => "dmode=777,fmode=777"
 
-  config.vm.define :djangovm do |django_config|
+  config.vm.define :django_dev do |django_config|
     # Every Vagrant virtual environment requires a box to build off of.
     django_config.vm.box = "precise32"
 
