@@ -1,7 +1,7 @@
 #!/bin/bash
 # Install git for version control, pip for install python packages
 echo 'Installing git and python3-pip...'
-sudo apt-get -qq install git python3-pip
+sudo apt-get -y install git python3-pip > /dev/null
 
 # Install virtualenv / virtualenvwrapper
 echo 'Installing virtualenv and virtualenvwrapper...'
