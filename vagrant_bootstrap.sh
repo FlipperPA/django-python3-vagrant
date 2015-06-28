@@ -14,3 +14,8 @@ printf "export WORKON_HOME=~vagrant/.virtualenvs\n" >> ~vagrant/.bashrc
 printf "export PROJECT_HOME=/vagrant\n" >> ~vagrant/.bashrc
 printf "export VIRTUALENVWRAPPER_PYTHON=python3\n" >> ~vagrant/.bashrc
 printf "source /usr/local/bin/virtualenvwrapper.sh\n" >> ~vagrant/.bashrc
+
+# Complete
+echo "Vagrant install complete."
+echo "Now try logging in:"
+echo "    $ vagrant ssh"
