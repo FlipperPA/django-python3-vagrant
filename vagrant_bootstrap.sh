@@ -23,6 +23,9 @@ printf "export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3.4\n" >> ~vagrant/.bashr
 printf "source /usr/local/bin/virtualenvwrapper.sh\n" >> ~vagrant/.bashrc
 
 # Complete
+cp /vagrant/examples/motd.txt /etc/motd
+cp /vagrant/examples/menu /usr/bin/menu
+chmod +x /usr/bin/menu
 echo "Vagrant install complete."
 echo "Now try logging in:"
 echo "    $ vagrant ssh"

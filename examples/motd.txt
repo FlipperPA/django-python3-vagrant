@@ -1,0 +1,12 @@
+Welcome to Python 3.4 on Ubuntu!
+
+Try out Django:
+
+(0) cd /vagrant
+(1) mkvirtualenv --quiet django_project
+(2) pip install --quiet django
+(3) django-admin.py startproject django_project
+(4) cd django_project
+(5) python manage.py runserver 0.0.0.0:8000
+
+Just type "menu" at any time to repeat these instructions.
