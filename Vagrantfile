@@ -29,5 +29,5 @@ Vagrant.configure("2") do |django_config|
   django_config.vm.network "forwarded_port", guest: 8000, host: 8001
 
   # kickoff a shell script to install Python essentials
-  django_config.vm.provision :shell, path: "bootstrap.sh"
+  django_config.vm.provision :shell, path: "vagrant_bootstrap.sh"
 end
