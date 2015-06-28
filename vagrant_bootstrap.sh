@@ -26,6 +26,7 @@ printf "source /usr/local/bin/virtualenvwrapper.sh\n" >> ~vagrant/.bashrc
 cp /vagrant/examples/motd.txt /etc/motd
 cp /vagrant/examples/menu /usr/bin/menu
 chmod +x /usr/bin/menu
+echo ""
 echo "Vagrant install complete."
 echo "Now try logging in:"
 echo "    $ vagrant ssh"

@@ -1,8 +1,8 @@
-## Python 3.4, 2.7, and virtualenvwrapper with MySQL and SQL Server Drivers
+## Python 3.4, 2.7, and virtualenvwrapper (6/28/2015)
 
-This is a Vagrant project for Python / Django development. It should be ready to go for Django development use with a core suite of tools, like virtualenv and virtualenvwrapper, defaulted to Python v3.4. Python 2.7 is only included in case you need it.
+This is a Vagrant Ubuntu Linux environment with Python / Django development. It should be ready to go for Django development use with a core suite of tools, like virtualenv and virtualenvwrapper, defaulted to Python v3.4. Python 2.7 is only included in case you need it.
 
-Also included are drivers and packages for connecting to both MySQL and MS SQL Server, since these aren't as nicely documented as PostgreSQL and SQLite. (Coming soon!)
+Coming soon, will also include drivers and packages for connecting to both MySQL and MS SQL Server, since these aren't as nicely documented as PostgreSQL and SQLite.
 
 ### Prerequisites
 
@@ -10,7 +10,7 @@ Also included are drivers and packages for connecting to both MySQL and MS SQL S
 * Vagrant: http://downloads.vagrantup.com/
 * (Windows Only) git-bash: https://openhatch.org/missions/windows-setup/install-git-bash
 
-### Installation
+### Installation and Login
 
 Fairly easy to get it running: first, checkout the repository to your machine.
 
@@ -21,7 +21,9 @@ Then, SSH into your new virtual machine:
 
     vagrant ssh
 
-Starting a Django project (/vagrant on the guest VM with be mounted to the directory with the Vagrantfile where you ran "vagrant up" on your local machine: you will be able to edit files on the local machine in this directory, which will automatically appear in /vagrant on the guest VM):
+### Start Your Django Project
+
+Then following instructions will be included each time you SSH into your guest VM. Starting a Django project (/vagrant on the guest VM with be mounted to the directory with the Vagrantfile where you ran "vagrant up" on your local machine: you will be able to edit files on the local machine in this directory, which will automatically appear in /vagrant on the guest VM):
 
     cd /vagrant
     mkvirtualenv django_project
