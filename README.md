@@ -4,7 +4,7 @@ Ships with Python 3.4, 2.7, and virtualenvwrapper (6/28/2015)
 
 This is a Vagrant Ubuntu Linux environment created for Python / Django developers. It should be ready to go for Django development use with a core suite of tools, like virtualenv and virtualenvwrapper, defaulted to Python v3.4. Python 2.7 is only included in case you need it.
 
-Coming soon, will also include drivers and packages for connecting to both MySQL and MS SQL Server, since these aren't as nicely documented as PostgreSQL and SQLite.
+Coming soon, will also include scripts to install drivers and packages for connecting to both MySQL and MS SQL Server, since these aren't as nicely documented as PostgreSQL and SQLite.
 
 ### Prerequisites
 
