@@ -57,7 +57,7 @@ In your virtualenv, install the required Python packages:
     pip install pyodbc==3.0.10
     pip install django-pyodbc-azure==1.8.1.0
 
-Then, set up your DATABASES[] setting in your Django settings file:
+Then, set up your DATABASES setting in your Django settings file:
 
     DATABASES = {
         'default': {
