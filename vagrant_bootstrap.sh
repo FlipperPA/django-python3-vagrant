@@ -30,3 +30,4 @@ echo ""
 echo "Vagrant install complete."
 echo "Now try logging in:"
 echo "    $ vagrant ssh"
+

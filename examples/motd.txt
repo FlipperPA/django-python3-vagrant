@@ -10,3 +10,4 @@ Try out Django:
 (5) python manage.py runserver 0.0.0.0:8000
 
 Just type "menu" at any time to repeat these instructions.
+
