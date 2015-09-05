@@ -7,7 +7,7 @@ Vagrant.configure("2") do |django_config|
 
   # The URL from where the 'django_config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
-  django_config.vm.box_url = "https://cloud-images.ubuntu.com/vagrant/utopic/20150625/utopic-server-cloudimg-amd64-vagrant-disk1.box"
+  django_config.vm.box_url = "https://cloud-images.ubuntu.com/vagrant/vivid/current/vivid-server-cloudimg-amd64-vagrant-disk1.box"
 
   # Configure virtual machine specs. Keep it simple, single user.
   django_config.vm.provider :virtualbox do |p|
