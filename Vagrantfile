@@ -3,7 +3,7 @@
 
 Vagrant.configure("2") do |django_config|
   # Every Vagrant virtual environment requires a box to build off of.
-  django_config.vm.box = "utopic64"
+  django_config.vm.box = "vivid64"
 
   # The URL from where the 'django_config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
