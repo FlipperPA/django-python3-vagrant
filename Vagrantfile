@@ -26,7 +26,7 @@ Vagrant.configure("2") do |django_config|
   # Forward a port from the guest to the host, which allows for outside
   # computers to access the VM, whereas host only networking does not.
   django_config.vm.network "forwarded_port", guest: 80, host: 8080
-  django_config.vm.network "forwarded_port", guest: 8000, host: 8001
+  django_config.vm.network "forwarded_port", guest: 8000, host: 8000
 
   # kickoff a shell script to install Python essentials
   django_config.vm.provision :shell, path: "vagrant_bootstrap.sh"

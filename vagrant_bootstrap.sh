@@ -1,16 +1,11 @@
 #!/bin/bash
 
-# Use Python 3.4
-alias python='/usr/bin/python3.4'
-export PYTHONPATH=/usr/lib/python3.4
-
 # Install git for version control, pip for install python packages
 echo 'Installing git and python3-pip...'
-sudo apt-get -qq install git python3-pip > /dev/null
+sudo apt-get -qq install git python3-pip > /dev/null 2>&1
 
 # Install virtualenv / virtualenvwrapper
 echo 'Installing virtualenv and virtualenvwrapper...'
-alias python='/usr/bin/python3.4'
 pip3 install --quiet virtualenv
 pip3 install --quiet virtualenvwrapper
 mkdir ~vagrant/.virtualenvs
@@ -21,11 +16,11 @@ printf "export WORKON_HOME=~vagrant/.virtualenvs\n" >> ~vagrant/.bashrc
 printf "export PROJECT_HOME=/vagrant\n" >> ~vagrant/.bashrc
 printf "export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3.4\n" >> ~vagrant/.bashrc
 printf "source /usr/local/bin/virtualenvwrapper.sh\n" >> ~vagrant/.bashrc
+printf "alias python='/usr/bin/python3.4'\n" >> ~vagrant/.bashrc
+printf "alias menu='cat /vagrant/examples/menu'\n" >> ~vagrant/.bashrc
 
 # Complete
 cp /vagrant/examples/motd.txt /etc/motd
-cp /vagrant/examples/menu /usr/bin/menu
-chmod +x /usr/bin/menu
 echo ""
 echo "Vagrant install complete."
 echo "Now try logging in:"

@@ -1,6 +1,6 @@
 ## django-python3-vagrant with FreeTDS for SQL Server
 
-Ships with Python 3.4, 2.7, and virtualenvwrapper (6/28/2015)
+Ships with Python 3.4, 2.7, and virtualenvwrapper (10/10/2015)
 
 This is a Vagrant Ubuntu Linux environment created for Python / Django developers. It should be ready to go for Django development use with a core suite of tools, like virtualenv and virtualenvwrapper, defaulted to Python v3.4. Python 2.7 is only included in case you need it.
 
@@ -48,7 +48,7 @@ Then following instructions will be included each time you SSH into your guest V
 
 You should not be able to see your initial Django site in a browser:
 
-http://localhost:8001/
+http://localhost:8000/
 
 ### Hooking Up Django to SQL Server (Optional)
 
@@ -89,10 +89,10 @@ If you'd like to view the site in your browser at an address like http://vagrant
 ### New to Django? Here are some excellent resources, check them out, as one size does not fit all for learning:
 
 * The Django Project Documentation: https://docs.djangoproject.com/
-* The Django Polling Project Tutorial (a rite of passing in the Django community): https://docs.djangoproject.com/en/1.8/intro/tutorial01/
+* The Django Polling Project Tutorial (a rite of passing in the Django community): httsps://docs.djangoproject.com/en/1.8/intro/tutorial01/
 * Getting Started With Django: http://gettingstartedwithdjango.com/
 * Tango With Django (a more advanced walk-through): http://www.tangowithdjango.com/
 * Coding standard: use PEP-8, except for limiting line length to 79 chars: http://legacy.python.org/dev/peps/pep-0008/
 * Django Best Practices: http://lincolnloop.com/django-best-practices/
 
-Feel free to reach out to me with any questions. - Tim Allen (tallen@wharton.upenn.edu)
+Feel free to reach out to me with any questions. - Tim Allen (flipper@peregrinesalon.com)
