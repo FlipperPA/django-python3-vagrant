@@ -17,7 +17,7 @@ printf "export PROJECT_HOME=/vagrant\n" >> ~vagrant/.bashrc
 printf "export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3.4\n" >> ~vagrant/.bashrc
 printf "source /usr/local/bin/virtualenvwrapper.sh\n" >> ~vagrant/.bashrc
 printf "alias python='/usr/bin/python3.4'\n" >> ~vagrant/.bashrc
-printf "alias menu='cat /vagrant/examples/menu'\n" >> ~vagrant/.bashrc
+printf "alias menu='cat /etc/motd'\n" >> ~vagrant/.bashrc
 
 # Complete
 cp /vagrant/examples/motd.txt /etc/motd
