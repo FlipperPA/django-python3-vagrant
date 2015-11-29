@@ -46,7 +46,7 @@ Then following instructions will be included each time you SSH into your guest V
     cd django_project
     python manage.py runserver 0.0.0.0:8000
 
-You should not be able to see your initial Django site in a browser:
+You should now be able to see your initial Django site in a browser:
 
 http://localhost:8000/
 
