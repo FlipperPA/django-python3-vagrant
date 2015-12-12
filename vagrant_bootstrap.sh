@@ -18,6 +18,7 @@ printf "export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3.4\n" >> ~vagrant/.bashr
 printf "source /usr/local/bin/virtualenvwrapper.sh\n" >> ~vagrant/.bashrc
 printf "alias python='/usr/bin/python3.4'\n" >> ~vagrant/.bashrc
 printf "alias menu='cat /etc/motd'\n" >> ~vagrant/.bashrc
+printf "alias runserver='python manage.py runserver 0.0.0.0:8000'\n" >> ~vagrant/.bashrc
 
 # Complete
 cp /vagrant/examples/motd.txt /etc/motd
