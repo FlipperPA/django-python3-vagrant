@@ -10,7 +10,7 @@ Also included is an optional install for FreeTDS and unixODBC, which will allow 
 
 * Virtualbox: https://www.virtualbox.org/wiki/Downloads
 * Vagrant: http://downloads.vagrantup.com/
-* (Windows Only) git-bash: https://openhatch.org/missions/windows-setup/install-git-bash
+* (Windows Only) git-bash, git GUI: https://git-for-windows.github.io/
 
 ### Installation and Login
 
