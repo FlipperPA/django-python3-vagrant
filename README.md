@@ -44,7 +44,7 @@ Then following instructions will be included each time you SSH into your guest V
     pip install django
     django-admin.py startproject django_project
     cd django_project
-    python manage.py runserver 0.0.0.0:8000
+    ./manage.py runserver 0.0.0.0:8000
 
 You should now be able to see your initial Django site in a browser:
 
