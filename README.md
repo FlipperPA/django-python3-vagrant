@@ -1,6 +1,6 @@
 ## django-python3-vagrant with FreeTDS for SQL Server
 
-Ships with Python 3.4, 2.7, and virtualenvwrapper (10/10/2015)
+Ships with Python 3.4, 2.7, and virtualenvwrapper
 
 This is a Vagrant Ubuntu Linux environment created for Python / Django developers. It should be ready to go for Django development use with a core suite of tools, like virtualenv and virtualenvwrapper, defaulted to Python v3.4. Python 2.7 is only included in case you need it.
 
@@ -41,7 +41,7 @@ Then following instructions will be included each time you SSH into your guest V
 
     cd /vagrant
     mkvirtualenv django_project
-    pip install django
+    pip install django==1.9
     django-admin.py startproject django_project
     cd django_project
     ./manage.py runserver 0.0.0.0:8000
@@ -55,7 +55,7 @@ http://localhost:8000/
 In your virtualenv, install the required Python packages:
 
     pip install pyodbc==3.0.10
-    pip install django-pyodbc-azure==1.8.1.0
+    pip install django-pyodbc-azure==1.9.0.1
 
 Then, set up your DATABASES setting in your Django settings file:
 

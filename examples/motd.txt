@@ -4,7 +4,7 @@ Try out Django:
 
 (0) cd /vagrant
 (1) mkvirtualenv --quiet django_project
-(2) pip install --quiet django
+(2) pip install --quiet django==1.9
 (3) django-admin.py startproject django_project
 (4) cd django_project
 (5) ./manage.py runserver 0.0.0.0:8000
