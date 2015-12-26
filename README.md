@@ -39,7 +39,7 @@ Next, you need to enter your server information, by editing the following two fi
 
 Then following instructions will be included each time you SSH into your guest VM. Starting a Django project (/vagrant on the guest VM with be mounted to the directory with the Vagrantfile where you ran "vagrant up" on your local machine: you will be able to edit files on the local machine in this directory, which will automatically appear in /vagrant on the guest VM):
 
-    cd /vagrant
+    cd /vagrant/projects
     mkvirtualenv django_project
     pip install django==1.9
     django-admin.py startproject django_project

@@ -2,7 +2,7 @@ Welcome to Python 3.4 on Ubuntu!
 
 Try out Django:
 
-(0) cd /vagrant
+(0) cd /vagrant/projects
 (1) mkvirtualenv --quiet django_project
 (2) pip install --quiet django==1.9
 (3) django-admin.py startproject django_project
