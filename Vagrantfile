@@ -11,7 +11,7 @@ Vagrant.configure("2") do |django_config|
 
   # Configure virtual machine specs. Keep it simple, single user.
   django_config.vm.provider :virtualbox do |p|
-    p.customize ["modifyvm", :id, "--memory", 1024]
+    p.customize ["modifyvm", :id, "--memory", 2048]
     p.customize ["modifyvm", :id, "--cpus", 2]
     p.customize ["modifyvm", :id, "--cpuexecutioncap", 50]
   end

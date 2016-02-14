@@ -1,4 +1,4 @@
-## django-python3-vagrant with FreeTDS for SQL Server
+## django-python3-vagrant with FreeTDS for SQL Server 1.1
 
 Ships with Python 3.4, 2.7, and virtualenvwrapper
 
@@ -94,5 +94,15 @@ If you'd like to view the site in your browser at an address like http://vagrant
 * Tango With Django (a more advanced walk-through): http://www.tangowithdjango.com/
 * Coding standard: use PEP-8, except for limiting line length to 79 chars: http://legacy.python.org/dev/peps/pep-0008/
 * Django Best Practices: http://lincolnloop.com/django-best-practices/
+
+### v1.1
+
+* Install Pygements and support for colorize `cat` command, `ccat`.
+* Install Ubuntu package pre-requesities for Pillow and Wagtail installation.
+* Latest version of pip installed for Python 3.
+
+### v1.0
+
+* Initial release.
 
 Feel free to reach out to me with any questions. - Tim Allen (flipper@peregrinesalon.com)

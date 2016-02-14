@@ -9,5 +9,15 @@ Try out Django:
 (4) cd django_project
 (5) python manage.py runserver 0.0.0.0:8000
 
+Some handy shortcuts:
+
+Run Django's development server as above:
+
+    $ runserver
+
+Colored cat; syntax highlighting at the command line (try it!):
+
+    $ ccat /vagrant/vagrant_bootstrap.sh
+
 Just type "menu" at any time to repeat these instructions.
 
