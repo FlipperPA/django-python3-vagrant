@@ -21,7 +21,7 @@ printf "source /usr/local/bin/virtualenvwrapper.sh\n" >> ~vagrant/.bashrc
 # Some useful aliases for getting started, MotD
 echo 'Setting up message of the day, and some aliases...'
 cp /vagrant/examples/motd.txt /etc/motd
-printf "\nUseful Aliases:\n"
+printf "\nUseful Aliases:\n" >> ~vagrant/.bashrc
 printf "alias menu='cat /etc/motd'\n" >> ~vagrant/.bashrc
 printf "alias runserver='python manage.py runserver 0.0.0.0:8000'\n" >> ~vagrant/.bashrc
 printf "alias ccat='pygmentize -O style=monokai -f terminal -g'\n" >> ~vagrant/.bashrc
