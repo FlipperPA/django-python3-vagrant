@@ -3,11 +3,11 @@
 
 Vagrant.configure("2") do |django_config|
   # Every Vagrant virtual environment requires a box to build off of.
-  django_config.vm.box = "vivid64"
+  django_config.vm.box = "trusty64"
 
   # The URL from where the 'django_config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
-  django_config.vm.box_url = "https://cloud-images.ubuntu.com/vagrant/vivid/current/vivid-server-cloudimg-amd64-vagrant-disk1.box"
+  django_config.vm.box_url = "https://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box"
 
   # Configure virtual machine specs. Keep it simple, single user.
   django_config.vm.provider :virtualbox do |p|
@@ -25,8 +25,9 @@ Vagrant.configure("2") do |django_config|
 
   # Forward a port from the guest to the host, which allows for outside
   # computers to access the VM, whereas host only networking does not.
-  django_config.vm.network "forwarded_port", guest: 80, host: 8080
-  django_config.vm.network "forwarded_port", guest: 8000, host: 8000
+  django_config.vm.network "forwarded_port", guest: 80, host: 8080, auto_correct: true
+  django_config.vm.network "forwarded_port", guest: 5432, host: 5432, auto_correct: true
+  django_config.vm.network "forwarded_port", guest: 8000, host: 8000, auto_correct: true
 
   # kickoff a shell script to install Python essentials
   django_config.vm.provision :shell, path: "vagrant_bootstrap.sh"

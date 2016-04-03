@@ -1,15 +1,15 @@
-## django-python3-vagrant with FreeTDS for SQL Server 1.1
+## django-python3-vagrant with FreeTDS for SQL Server, and PostgreSQL 9.5 1.2
 
 Ships with Python 3.4, 2.7, and virtualenvwrapper
 
 This is a Vagrant Ubuntu Linux environment created for Python / Django developers. It should be ready to go for Django development use with a core suite of tools, like virtualenv and virtualenvwrapper, defaulted to Python v3.4. Python 2.7 is only included in case you need it.
 
-Also included is an optional install for FreeTDS and unixODBC, which will allow you to connect to Microsoft SQL Server.
+Also included are optional installs for PostgreSQL 9.5 Server, and FreeTDS / unixODBC, which will allow you to connect to Microsoft SQL Server.
 
 ### Prerequisites
 
 * Virtualbox: https://www.virtualbox.org/wiki/Downloads
-* Vagrant: http://downloads.vagrantup.com/
+* Vagrant 1.8+: http://downloads.vagrantup.com/
 * (Windows Only) git-bash, git GUI: https://git-for-windows.github.io/
 
 ### Installation and Login
@@ -22,6 +22,13 @@ Fairly easy to get it running: first, checkout the repository to your machine.
 Then, SSH into your new virtual machine:
 
     vagrant ssh
+
+### Installing PostgreSQL 9.5 with Local Server (Optional)
+
+Run the following command to install PostgreSQL 9.5 server on the vagrant virtual machine.
+
+    cd /vagrant/examples
+    sudo ./install-postgres.sh
 
 ### Installing FreeTDS for SQL Server (Optional)
 
@@ -94,6 +101,11 @@ If you'd like to view the site in your browser at an address like http://vagrant
 * Tango With Django (a more advanced walk-through): http://www.tangowithdjango.com/
 * Coding standard: use PEP-8, except for limiting line length to 79 chars: http://legacy.python.org/dev/peps/pep-0008/
 * Django Best Practices: http://lincolnloop.com/django-best-practices/
+
+### v1.2
+
+* Upgrade to Ubuntu 15.10 Wily Werewolf.
+* Install latest release of PostgreSQL 9.5.
 
 ### v1.1
 
