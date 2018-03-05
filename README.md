@@ -1,3 +1,11 @@
+# DEPRECATED! Please read!
+
+This Vagrant box is very out of date. However, I've developed a Vagrant box with some colleagues at work. It is CentOS instead of Ubuntu (since we use that at work), but includes current versions of Python (3.5 and 3.6), and is Ansiblized.
+
+You can see the much improved Vagrant box here:
+
+https://github.com/wharton/python-vagrant-centos7/
+
 ## django-python3-vagrant with FreeTDS for SQL Server 1.1
 
 Ships with Python 3.4, 2.7, and virtualenvwrapper
