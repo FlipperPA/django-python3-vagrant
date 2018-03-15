@@ -105,7 +105,7 @@ If you'd like to view the site in your browser at an address like http://vagrant
 
 ### v1.1
 
-* Install Pygements and support for colorize `cat` command, `ccat`.
+* Install Pygments and support for colorize `cat` command, `ccat`.
 * Install Ubuntu package pre-requesities for Pillow and Wagtail installation.
 * Latest version of pip installed for Python 3.
 
