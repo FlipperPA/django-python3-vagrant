@@ -1,8 +1,6 @@
 # DEPRECATED! Please read!
 
-This Vagrant box is very out of date. However, I've developed a Vagrant box with some colleagues at work. It is CentOS instead of Ubuntu (since we use RedHat at work), but includes current versions of Python (3.5 and 3.6), PostgreSQL, FreeTDS, and is Ansiblized.
-
-You can see the much improved Vagrant box here:
+This Vagrant box is very out-of-date. There's a slightly less out-of-date Vagrant box with better examples here:
 
 https://github.com/wharton/python-vagrant-centos7/
 
